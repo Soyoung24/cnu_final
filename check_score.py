@@ -10,7 +10,7 @@ grade_df=grade_df.fillna(0)
 
 st.title('과제, 중간, 기말 점수 확인')
 
-student_id = st.number_input('학번 9자리 입력', 000000000)
+student_id = st.number_input('학번 9자리 입력', 200000000)
 name = st.text_input('이름')
 google_id = st.text_input('구글 클래스룸 계정 (예시: cnu__@gmail.com)')
 phone_number = st.text_input('핸드폰 번호 (예시: 000-0000-0000)')
