@@ -8,7 +8,9 @@ grade_df = grade_df.drop(['Unnamed: 0', 'No'], axis=1)
 grade_df=grade_df.fillna(0)
 
 
-st.title('과제, 중간, 기말 점수 확인하세요')
+st.title('과제, 중간, 기말 점수 확인')
+
+st.write('채점 기준이 궁금하신 분들은 연락주세요.')
 
 student_id = st.number_input('학번 9자리 입력', 000000000)
 name = st.text_input('이름')
